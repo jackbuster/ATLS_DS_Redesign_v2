@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Disability Services - University of Colorado Boulder</title>
 
@@ -12,53 +12,52 @@
 </head>
 
 <body>
-<div id="wrapper">
+    <div id="wrapper">
+        <header role="banner">
+            <img src="images/cu-boulder-logo-text-black.svg" alt="CU Boulder Disability Services logo" />
+            <p>Supporting access for all students at the University of Colorado</p>
+        </header>
 
-  <header role="banner">
-    <img src="images/cu-boulder-logo-text-black.svg" alt="CU Boulder Disability Services logo" />
-    <p>Supporting access for all students at the University of Colorado</p>
-  </header>
+        <nav role="navigation" aria-label="Main" class="primary">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Prospective Students</a></li>
+            <li><a href="#">Current Students</a></li>
+            <li><a href="#">CU Families</a></li>
+        <li><a href="#">Faculty &amp; Staff</a></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
 
-  <nav role="navigation" aria-label="Main" class="primary">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Prospective Students</a></li>
-      <li><a href="#">Current Students</a></li>
-      <li><a href="#">CU Families</a></li>
-      <li><a href="#">Faculty &amp; Staff</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </nav>
+    <div role="search">
+        <!-- search.php will be added later -->
+        <form action="search.php" method="post" id="searchinput">
+        <label for="search">Search:</label>
+        <input id="search" type="text" name="searchfield" />
+        <input type="submit" value="Submit" />
+        </form>
+    </div>
 
-  <div role="search">
-    <!-- search.php will be added later -->
-    <form action="search.php" method="post" id="searchinput">
-      <label for="search">Search:</label>
-      <input id="search" type="text" name="searchfield" />
-      <input type="submit" value="Submit" />
-    </form>
-  </div>
+    <main role="main">
+        <h1>Welcome to Disability Services</h1>
+        <p>Disability Services works with students to ensure equal access to courses, programs and campus life. Learn how to register, request accommodations, and find resources for students, faculty and staff.</p>
+    </main>
 
-  <main role="main">
-    <h1>Welcome to Disability Services</h1>
-    <p>Disability Services works with students to ensure equal access to courses, programs and campus life. Learn how to register, request accommodations, and find resources for students, faculty and staff.</p>
-  </main>
+    <nav role="navigation" aria-label="Quick links" class="quicklinks">
+        <h2>Quick Links</h2>
+        <ul>
+        <li><a href="#">Request an Interpreter</a></li>
+        <li><a href="#">Notetaker Training</a></li>
+        <li><a href="#">Temporary Injuries</a></li>
+        </ul>
+    </nav>
 
-  <nav role="navigation" aria-label="Quick links" class="quicklinks">
-    <h2>Quick Links</h2>
-    <ul>
-      <li><a href="#">Request an Interpreter</a></li>
-      <li><a href="#">Notetaker Training</a></li>
-      <li><a href="#">Temporary Injuries</a></li>
-    </ul>
-  </nav>
+        <footer role="contentinfo">
+            <h2>Contact &amp; Location</h2>
+            <img src="images/150-beboulder-footer.svg" alt="Disability Services office building" />
+            <p>Disability Services, University of Colorado Boulder. <a href="tel:3034928671">303-492-8671</a> <a href="mailto:dsinfo@colorado.edu">dsinfo@colorado.edu</a></p>
+        </footer>
 
-  <footer role="contentinfo">
-    <h2>Contact &amp; Location</h2>
-    <img src="images/150-beboulder-footer.svg" alt="Disability Services office building" />
-    <p>Disability Services, University of Colorado Boulder. Phone, email and office hours to be added.</p>
-  </footer>
-
-</div> <!-- end of wrapper div -->
+    </div>
 </body>
 </html>
